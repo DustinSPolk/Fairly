@@ -1,0 +1,12 @@
+.admin-buttons-row {
+  justify-content: center !important;
+}
+
+.user-admin-dropdown {
+  height: 26.28px !important;
+  padding-bottom: 1px;
+}
+
+.user-admin-filter {
+  display: block !important;
+}
