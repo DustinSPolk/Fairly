@@ -1,0 +1,13 @@
+.analytics-line-card {
+  height: 300px;
+}
+
+.analytics-bottom-card {
+  height: 400px;
+}
+
+.analytics-date-error {
+  margin-top: 0.25rem;
+  font-size: 80%;
+  color: #dc3545;
+}
