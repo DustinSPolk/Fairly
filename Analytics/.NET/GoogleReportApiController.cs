@@ -1,15 +1,3 @@
-﻿using Google.Apis.AnalyticsReporting.v4.Data;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
-using Sabio.Models.Requests.GoogleReportRequest;
-using Sabio.Services;
-using Sabio.Services.Interfaces;
-using Sabio.Web.Controllers;
-using Sabio.Web.Models.Responses;
-using System;
-
-namespace Sabio.Web.Api.Controllers
-{
     [Route("api/googleanalytics")]
     [ApiController]
     public class GoogleReportApiController : BaseApiController
@@ -53,4 +41,3 @@ namespace Sabio.Web.Api.Controllers
             return StatusCode(iCode, response);
         }
     }
-}
