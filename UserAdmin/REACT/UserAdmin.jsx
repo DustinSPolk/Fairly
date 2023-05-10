@@ -8,7 +8,6 @@ import {
   Container,
   InputGroup,
 } from "react-bootstrap";
-import debug from "sabio-debug";
 import UserAdminRow from "./UserAdminRow";
 import UserAdminSingle from "./UserAdminSingle";
 import userService from "../../services/userService";
