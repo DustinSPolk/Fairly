@@ -26,7 +26,7 @@ namespace Sabio.Services
         public GoogleAnalyticsReportService(IOptions<ServiceAccountCred> acc)
         {
             _acc = acc.Value;
-            string keyPath = Path.Combine("fairly-383317-ab50cd65ecf7.json");
+            string keyPath = Path.Combine("analytics-keys.json");
             _credential = GoogleCredential.FromFile(keyPath).CreateScoped(new[] { AnalyticsReportingService.Scope.AnalyticsReadonly });
             _client = new AnalyticsReportingService(
                 new BaseClientService.Initializer
@@ -38,7 +38,7 @@ namespace Sabio.Services
 
         public GetReportsResponse GetAnalyticsReport(GoogleGetReportRequest model)
         {
-            string viewIdPath = Path.Combine("fairly-383317-ab50cd65ecf7.json");
+            string viewIdPath = Path.Combine("analytics-keys.json");
             string file = File.ReadAllText(viewIdPath);
             dynamic jsonFile = JsonConvert.DeserializeObject(file);
 
