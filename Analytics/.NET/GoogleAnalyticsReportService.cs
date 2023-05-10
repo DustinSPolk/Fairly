@@ -1,22 +1,3 @@
-﻿using Google.Apis.AnalyticsReporting.v4;
-using Google.Apis.AnalyticsReporting.v4.Data;
-using Google.Apis.Auth.OAuth2;
-using Google.Apis.Http;
-using Google.Apis.Services;
-using Microsoft.Extensions.Options;
-using Newtonsoft.Json;
-using Sabio.Models.Domain.GoogleAnalytics;
-using Sabio.Models.Requests.GoogleReportRequest;
-using Sabio.Services.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Sabio.Services
-{
     public class GoogleAnalyticsReportService : IGoogleAnalyticsReportService
     {
         private ServiceAccountCred _acc;
@@ -69,4 +50,3 @@ namespace Sabio.Services
             return response;
         }
     }
-}
