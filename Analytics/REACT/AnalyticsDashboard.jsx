@@ -8,7 +8,6 @@ import ViewsByBrowser from "./ViewsByBrowser";
 import ViewsByPage from "./ViewsByPage";
 import UserType from "./UserType";
 import googleAnalyticsService from "../../services/googleAnalyticsService";
-import debug from "sabio-debug";
 import { Notyf } from "notyf";
 import { Formik, Form as FormikForm, Field, ErrorMessage } from "formik";
 import "./analytics.css";
