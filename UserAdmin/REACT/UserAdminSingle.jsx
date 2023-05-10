@@ -1,6 +1,5 @@
 import { React } from "react";
 import { Badge, Card, Row, Col, Table, Button } from "react-bootstrap";
-import debug from "sabio-debug";
 import blankAvatar from "../../assets/img/avatars/blank-avatar.jpg";
 import PropTypes from "prop-types";
 import userService from "../../services/userService";
