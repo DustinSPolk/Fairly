@@ -1,4 +1,4 @@
 This dashboard provided Google Analytics information for product owners and system administrators.
 
-![default](https://github.com/DustinSPolk/Fairly/blob/main/Analytics/lightAnalytics.PNG)
-![dark mode](https://github.com/DustinSPolk/Fairly/blob/main/Analytics/darkAnalytics.PNG)
+<img src="https://github.com/DustinSPolk/Fairly/blob/main/Analytics/lightAnalytics.PNG" width="1000">
+<img src="https://github.com/DustinSPolk/Fairly/blob/main/Analytics/darkAnalytics.PNG" width="1000">
